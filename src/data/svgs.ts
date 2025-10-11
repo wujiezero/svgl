@@ -2,6 +2,20 @@ import type { iSVG } from "@/types/svg";
 
 export const svgs: iSVG[] = [
   {
+    title: "NVIDIA",
+    category: ["AI", "Hardware", "Platform"],
+    route: {
+      light: "/library/nvidia-icon-light.svg",
+      dark: "/library/nvidia-icon-dark.svg",
+    },
+    wordmark: {
+      light: "/library/nvidia-wordmark-light.svg",
+      dark: "/library/nvidia-wordmark-dark.svg",
+    },
+    url: "https://www.nvidia.com",
+    brandUrl: "https://www.nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage",
+  },
+  {
     title: "Google Classroom",
     category: ["Google", "Education"],
     route: "/library/google-classroom.svg",
@@ -13,6 +27,12 @@ export const svgs: iSVG[] = [
     category: "AI",
     route: "/library/kimi.svg",
     url: "https://kimi.ai/",
+  },
+  {
+    title: "OneNote",
+    category: "Software",
+    route: "/library/onenote.svg",
+    url: "https://onenote.com",
   },
   {
     title: "Perspective",
@@ -502,10 +522,17 @@ export const svgs: iSVG[] = [
   },
   {
     title: "Turborepo",
-    category: ["Library", "Vercel", "Monorepo"],
-    route: "/library/turborepo.svg",
-    url: "https://turborepo.org/",
-    shadcnCommand: "shadcn@canary add https://svgl.app/r/vercel.json",
+    category: ["Library", "Monorepo", "Vercel"],
+    route: {
+      light: "/library/turborepo-icon-light.svg",
+      dark: "/library/turborepo-icon-dark.svg",
+    },
+    wordmark: {
+      light: "/library/turborepo-wordmark-light.svg",
+      dark: "/library/turborepo-wordmark-dark.svg",
+    },
+    url: "https://turborepo.com",
+    brandUrl: "https://vercel.com/geist/brands",
   },
   {
     title: "Tailwind CSS",
@@ -517,6 +544,15 @@ export const svgs: iSVG[] = [
     },
     brandUrl: "https://tailwindcss.com/brand",
     url: "https://tailwindcss.com/",
+  },
+  {
+    title: 'WakaTime',
+    category: 'Devtool',
+    route: {
+      light: '/library/wakatime-dark.svg',
+      dark: '/library/wakatime-light.svg'
+    },
+    url: 'https://wakatime.com'
   },
   {
     title: "Styled Components",
@@ -560,11 +596,15 @@ export const svgs: iSVG[] = [
     title: "Astro",
     category: "Framework",
     route: {
-      light: "/library/astro.svg",
-      dark: "/library/astro_dark.svg",
+      light: "/library/astro-icon-light.svg",
+      dark: "/library/astro-icon-dark.svg",
     },
-    url: "https://astro.build/",
-    brandUrl: "https://astro.build/press/",
+    wordmark: {
+      light: "/library/astro-wordmark-light.svg",
+      dark: "/library/astro-wordmark-dark.svg",
+    },
+    url: "https://astro.build",
+    brandUrl: "https://astro.build/press",
   },
   {
     title: "Google",
@@ -1021,6 +1061,12 @@ export const svgs: iSVG[] = [
     url: "https://auth0.com/",
   },
   {
+    title: "Auth.js",
+    category: "Authentication",
+    route: "/library/authjs.svg",
+    url: "https://authjs.dev",
+  },
+  {
     title: "Fresh",
     category: "Framework",
     route: "/library/fresh.svg",
@@ -1323,9 +1369,17 @@ export const svgs: iSVG[] = [
   },
   {
     title: "Turbopack",
-    category: "Software",
-    route: "/library/turbopack.svg",
-    url: "https://turbo.build/",
+    category: ["Software", "Devtool", "Vercel"],
+    route: {
+      light: "/library/turbopack-icon-light.svg",
+      dark: "/library/turbopack-icon-dark.svg",
+    },
+    wordmark: {
+      light: "/library/turbopack-wordmark-light.svg",
+      dark: "/library/turbopack-wordmark-dark.svg",
+    },
+    url: "https://nextjs.org/docs/app/api-reference/turbopack",
+    brandUrl: "https://vercel.com/geist/brands",
   },
   {
     title: "Builder",
@@ -3430,6 +3484,12 @@ export const svgs: iSVG[] = [
     url: "https://typegpu.com",
   },
   {
+    title: "Microsoft .NET",
+    category: ["Framework", "Library", "Devtool"],
+    route: "/library/dotnet.svg",
+    url: "https://dotnet.microsoft.com",
+  },
+  {
     title: "dotenv",
     category: ["Config", "Library", "Devtool"],
     route: "/library/dotenv.svg",
@@ -3523,13 +3583,17 @@ export const svgs: iSVG[] = [
     url: "https://modelcontextprotocol.io/",
   },
   {
-    title: "Socket.io",
-    category: "Software",
+    title: "Socket.IO",
+    category: ["Software", "Library"],
     route: {
-      dark: "/library/socketio-dark.svg",
-      light: "/library/socketio-light.svg",
+      dark: "/library/socketio-icon-dark.svg",
+      light: "/library/socketio-icon-light.svg",
     },
-    url: "https://socket.io/",
+    wordmark: {
+      light: "/library/socketio-wordmark-light.svg",
+      dark: "/library/socketio-wordmark-dark.svg",
+    },
+    url: "https://socket.io",
   },
   {
     title: "Ant Design",
@@ -3867,13 +3931,24 @@ export const svgs: iSVG[] = [
   {
     title: "ESLint",
     category: "Library",
-    route: "/library/eslint.svg",
-    url: "https://eslint.org/",
+    route: {
+      light: "/library/eslint-icon-light.svg",
+      dark: "/library/eslint-icon-dark.svg",
+    },
+    wordmark: {
+      light: "/library/eslint-wordmark-light.svg",
+      dark: "/library/eslint-wordmark-dark.svg",
+    },
+    url: "https://eslint.org",
+    brandUrl: "https://eslint.org/branding",
   },
   {
     title: "Apache Kafka",
     category: "Analytics",
-    route: "/library/apache-kafka-logo.svg",
+    route: {
+      light: '/library/apache-kafka-light.svg',
+      dark: '/library/apache-kafka-dark.svg'
+    },
     wordmark: {
       light: "/library/apache-kafka-wordmark-light.svg",
       dark: "/library/apache-kafka-wordmark-dark.svg",
@@ -4026,4 +4101,37 @@ export const svgs: iSVG[] = [
     url: "https://qdrant.tech/",
     brandUrl: "https://qdrant.tech/brand-resources/",
   },
+  {
+    title: "TravelPerk",
+    category: "Software",
+    route: {
+      light: "/library/travelperk-light.svg",
+      dark: "/library/travelperk-dark.svg",
+    },
+    wordmark: {
+      light: "/library/travelperk-wordmark-light.svg",
+      dark: "/library/travelperk-wordmark-dark.svg",
+    },
+    url: "https://www.travelperk.com/",
+    brandUrl: "https://www.travelperk.com/media/",
+  },
+  {
+    title: "Sanity",
+    category: ["CMS", "Software"],
+    route: {
+      light: "/library/sanity-light.svg",
+      dark: "/library/sanity-dark.svg",
+    },
+    wordmark: {
+      light: "/library/sanity-wordmark-light.svg",
+      dark: "/library/sanity-wordmark-dark.svg",
+    },
+    url: "https://www.sanity.io/",
+  },
+  {
+    title: "Nginx",
+    category: "Software",
+    route: "/library/nginx.svg",
+    url: "https://nginx.org/",
+  }
 ];
